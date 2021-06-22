@@ -1,5 +1,5 @@
 {
-.appVersion = "1349";
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -190087,5 +190087,5 @@ manufacturer = "Baron von Fonthausen";
 manufacturerURL = "http://www.baronvonfonthausen.com/";
 unitsPerEm = 1024;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
