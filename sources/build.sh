@@ -39,6 +39,11 @@ do
 	mv "$vf.fix" $vf;
 done
 
+for vf in $vfs
+do
+	gftools gen-stat $vf --src stat.yaml --inplace;
+done
+
 python postprocessing.py
 mv ../fonts/variable/CrimsonPro-Italic-VF.ttf.fix ../fonts/variable/CrimsonPro-Italic-VF.ttf
 mv ../fonts/variable/CrimsonPro-Roman-VF.ttf.fix ../fonts/variable/CrimsonPro-Roman-VF.ttf
